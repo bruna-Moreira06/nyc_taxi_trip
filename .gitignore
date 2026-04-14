@@ -1,0 +1,34 @@
+# Claude
+CLAUDE.md
+
+# Environnement conda
+envs/
+*.egg-info/
+
+# Données
+data/processed/
+data/raw/*.csv
+
+# Modèles sérialisés
+models/
+
+# Jupyter
+notebooks/.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
