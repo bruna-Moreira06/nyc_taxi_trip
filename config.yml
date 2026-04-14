@@ -1,0 +1,21 @@
+project:
+  name: jupyterproject
+
+paths:
+  raw_data: ./data/raw
+  processed_data: ./data/processed
+  models: ./models
+  model_path: ./models/taxi_trip_duration.model
+  model_ridge_path: ./models/taxi_trip_duration_ridge.model
+  notebooks: ./notebooks
+  reports: ./reports
+  figures: ./reports/figures
+  db_path: ./data/taxi_trip_duration.db
+
+ml:
+  random_state: 42
+  test_size: 0.3
+
+dataset:
+  csv_file: New_York_City_Taxi_Trip_Duration.csv
+  target_column: trip_duration
