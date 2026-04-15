@@ -1,0 +1,7 @@
+app:
+  title: NYC Taxi Trip Duration API
+  version: 1.0.0
+
+paths:
+  model_path: ./models/taxi_trip_duration.model
+  db_path: ./data/taxi_trip_duration.db
