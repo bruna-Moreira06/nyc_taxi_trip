@@ -17,5 +17,5 @@ ml:
   test_size: 0.3
 
 dataset:
-  csv_file: New_York_City_Taxi_Trip_Duration.csv
+  csv_file: train.csv
   target_column: trip_duration
